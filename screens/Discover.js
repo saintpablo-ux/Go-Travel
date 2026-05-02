@@ -66,7 +66,7 @@ const Discover = () => {
                         setTr_lng(details?.geometry?.viewport?.northeast?.lng)
                     }}
                     query={{
-                        key: 'REMOVED_GOOGLE_API_KEY',
+                        key: '',
                         language: 'en',
                     }}
                 />
